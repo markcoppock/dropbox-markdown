@@ -8,7 +8,7 @@ Uses John Gruber's [Markdown](http://daringfireball.net/projects/markdown/) and 
 
 ### Installation 
 
-1. Upload the plugin directory to `/wp-content/plugins/`
+1. Upload the plugin directory to `/wp-content/plugins/` 
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. For now, I'm including CSS for the embedded content. You may comment the line in 'dropbox-markdown.php' that enqueues the style if you don't want it.
 
