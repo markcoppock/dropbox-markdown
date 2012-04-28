@@ -21,6 +21,6 @@ add_shortcode( 'md', 'mc_dropbox_markdown' );
 add_action( 'wp_print_styles', 'mc_enqueue_my_styles' );
 function mc_enqueue_my_styles() {
 	wp_register_style( 'markdown-styles', plugins_url('markdown.css', __FILE__) );
-	wp_enqueue_style( 'markdown-styles' );
+	wp_enqueue_style( 'markdown-styles' ); 
 }
 
