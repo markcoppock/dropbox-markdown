@@ -4,7 +4,7 @@
 
 Creates a shortcode ( `[md url="..."]` ) that inserts an external markdown-formatted file into a page or post. The external file's URL must be publicly accessible. Dropbox files must be inside that account's Public folder. 
 
-Uses John Gruber's [Markdown](http://daringfireball.net/projects/markdown/) and Michael Fortin's [PHP Markdown](http://michelf.com/projects/php-markdown/).
+Uses John Gruber's [Markdown](http://daringfireball.net/projects/markdown/) and Michael Fortin's [PHP Markdown](http://michelf.com/projects/php-markdown/). *Many* thanks to these individuals and all who assisted them on these projects. 
 
 ### Installation 
 
