@@ -25,4 +25,4 @@ See John Gruber's [Markdown Overview](http://daringfireball.net/projects/markdow
 
 **How can I style, or stop the plugin from styling, the content that is inserted?**
 
-The plugin wraps the inserted content in a `div` with a class of `markdown-block`. For now, I'm including CSS for the embedded content. You may comment the line in 'dropbox-markdown.php' that enqueues the style if you don't want it and use your own CSS.
+The plugin wraps the inserted content in a `div` with a class of `markdown-block`. For now, I'm including CSS for the embedded content. Comment out the line in 'dropbox-markdown.php' that enqueues the style if you don't want it and use your own CSS.
