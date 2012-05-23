@@ -4,7 +4,7 @@
 
 Creates a shortcode ( `[md url="..."]` ) that inserts an external Markdown-formatted file into a page or post. The external file's URL must be publicly accessible. [Dropbox](http://dl.dropbox.com/u/2561535/Screenshots/o_o4.png) files must be inside that account's Public folder. 
 
-Uses John Gruber's [Markdown](http://daringfireball.net/projects/markdown/) and Michael Fortin's [PHP Markdown](http://michelf.com/projects/php-markdown/). *Many* thanks to these individuals and to all who assisted them on these projects. 
+Uses John Gruber's [Markdown](http://daringfireball.net/projects/markdown/) and Michael Fortin's [PHP Markdown](http://michelf.com/projects/php-markdown/). *Many* thanks to these individuals and to all who assisted them on these projects. **NOTE:** This plugin is so far not compatible with other currently activated Markdown plugins.
 
 ### Installation 
 
