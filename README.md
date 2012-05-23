@@ -4,7 +4,7 @@
 
 Creates a shortcode ( `[md url="..."]` ) that inserts an external Markdown-formatted file into a page or post. The external file's URL must be publicly accessible. [Dropbox](http://dl.dropbox.com/u/2561535/Screenshots/o_o4.png) files must be inside that account's Public folder. 
 
-Uses John Gruber's [Markdown](http://daringfireball.net/projects/markdown/) and Michael Fortin's [PHP Markdown](http://michelf.com/projects/php-markdown/). *Many* thanks to these individuals and all who assisted them on these projects. 
+Uses John Gruber's [Markdown](http://daringfireball.net/projects/markdown/) and Michael Fortin's [PHP Markdown](http://michelf.com/projects/php-markdown/). *Many* thanks to these individuals and to all who assisted them on these projects. 
 
 ### Installation 
 
@@ -18,6 +18,10 @@ Uses John Gruber's [Markdown](http://daringfireball.net/projects/markdown/) and 
 **Does the external content inserted by this plugin's shortcode get transferred to the WordPress site's database?**
 
 No. The content shown is only displayed, but not contained, in the preview or published page or post where you use the shortcode. If the external file is moved, renamed or deleted, no content will be displayed on the WordPress site.
+
+**Do I have to use Dropbox for this plugin to work?**
+
+No, any Markdown-formatted file residing at a URL will work.
 
 **My content displays, but with incorrect formatting.** 
 

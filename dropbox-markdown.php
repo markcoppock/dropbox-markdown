@@ -1,14 +1,16 @@
 <?php
 /*
 Plugin Name: Dropbox Markdown
-Plugin URI: http://markcoppock.com/2012/04/the-dropbox-markdown-wordpress-plugin/
-Description: Creates a shortcode ( [md url=""] ) that inserts an external Markdown-formatted file into a page or post. Uses John Gruber's Markdown and Michael Fortin's PHP Markdown.
+Plugin URI: http://markcoppock.com/code/wordpress/dropbox-markdown/
+Description: Creates a shortcode ( <code>[md url=""]</code> ) that inserts an external Markdown-formatted file into a page or post. Uses John Gruber's Markdown and Michael Fortin's PHP Markdown. <strong>NOTE:</strong> This plugin is so far not compatible with other currently activated Markdown plugins.
 Version: 0.9
 Author: Mark Coppock
 Author URI: http://markcoppock.com
 */
 
-include_once "lib/markdown/markdown.php";
+if (!function_exists('Markdown')) {
+	require_once "lib/markdown/markdown.php";
+}
 
 function mc_dropbox_markdown( $atts ) {
 	$myurl = $atts['url'];	
