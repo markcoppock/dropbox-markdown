@@ -35,6 +35,12 @@
 #content .entry-content .markdown-block h4 {
     font-size: 15px;
     color: #666;
+    margin-bottom: 10px;
+}
+#content .entry-content .markdown-block dl {
+    border: 1px solid #ccc;
+    background-color: #efefef;
+    padding: 10px 20px 0;
 }
 
 #content .entry-content .markdown-block p {
