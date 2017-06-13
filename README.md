@@ -2,9 +2,11 @@
 
 ### Description 
 
-Creates a shortcode ( `[md url="..."]` ) that inserts an external Markdown-formatted file into a page or post. The external file's URL must be publicly accessible. [Dropbox](http://dl.dropbox.com/u/2561535/Screenshots/o_o4.png) files must be inside that account's Public folder. 
+Creates a shortcode ( `[md url="..."]` ) that inserts an external Markdown-formatted file into a page or post. The external file's URL must be publicly accessible (so, as of [March 2017](https://www.dropbox.com/help/files-folders/public-folder), not Dropbox any more).  
 
-Uses John Gruber's [Markdown](http://daringfireball.net/projects/markdown/) and Michael Fortin's [PHP Markdown](http://michelf.com/projects/php-markdown/). *Many* thanks to these individuals and to all who assisted them on these projects. **NOTE:** This plugin is so far not compatible with other currently activated Markdown plugins.
+Uses John Gruber's [Markdown](http://daringfireball.net/projects/markdown/) and Michael Fortin's [PHP Markdown](http://michelf.com/projects/php-markdown/). *Many* thanks to these individuals and to all who assisted them on these projects.  
+
+**NOTE:** This plugin is so far not compatible with [Jetpack's Markdown feature](https://jetpack.com/support/markdown/). It does work with the [WP-MArkdown plugin](https://wordpress.org/plugins/wp-markdown/) but for other Markdown plugins, activator beware.  
 
 ### Installation 
 
