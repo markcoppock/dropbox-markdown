@@ -17,15 +17,19 @@ Uses John Gruber's [Markdown](http://daringfireball.net/projects/markdown/) and 
 
 ### Frequently Asked Questions 
 
-**Does the external content inserted by this plugin's shortcode get transferred to the WordPress site's database?**
+#### Does the external content inserted by this plugin's shortcode get transferred to the WordPress site's database?
 
 No. The content shown is only displayed, but not contained, in the preview or published page or post where you use the shortcode. If the external file is moved, renamed or deleted, no content will be displayed on the WordPress site.
 
-**Do I have to use Dropbox for this plugin to work?**
+#### Why doesn't Dropbox work for this plugin?
 
-No, any Markdown-formatted file residing at a URL will work.
+No, [since March 2017](https://www.dropbox.com/help/files-folders/public-folder) Dropbox no longer offers public access of files. However, any public Markdown-formatted file residing at a URL will work.
 
-**My content displays, but with incorrect formatting.** 
+#### So why does the name of the plugin still have Dropbox in the name?
+
+Legacy. Props to past usefulness. Laziness. Pick any three.
+
+#### My content displays, but with incorrect formatting.
 
 See John Gruber's [Markdown Overview](http://daringfireball.net/projects/markdown/) and [Syntax](http://daringfireball.net/projects/markdown/syntax) documentation for help with Markdown formatting. See Michael Fortin's discussion and information regarding [his port of Markdown to PHP](http://michelf.com/projects/php-markdown/). 
 
